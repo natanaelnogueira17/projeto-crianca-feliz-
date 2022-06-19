@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  padding: 0;
+  /*background-color: rgb(251, 248, 191);*/
+  
+}
+
+h1{
+  color: rgb(89, 0, 255); 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 36px;
+}
+
+
+a{ 
+  padding: 10px;
+  color: darkred;
+  text-decoration: dashed ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  
+}
+
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: green;
+  margin: 30px;
+  font-size: 26px ;
+}
+
+p{
+  font-family: cursive;
+  color: darkred;
+  margin-left: 20px;
+ 
+  
+
+}
+.img1{
+text-align: center;
+background-image: url(./background.jpg);
+
+}
+
+img{
+  height: 100px;
+  border: 3px darkred solid;
+  margin: 15px;
+}
+ 
+.navegacao{ 
+  margin-top: px; 
+  text-align: center;
+  border: 1px solid red;
+  
+  
+  }
+.agradecimento{
+  text-align: center;
+}
+.salmos{
+border: solid 2px darkred;
+width: 200px;
+height: 200px;
+margin-left: 30px;
+
+
+}
+
+.internacional{
+border: solid 2px darkred;
+width: 200px;
+height: 200px;
+margin-left: 30px;
+
+}
+
+.mapa{
+  text-align: center;
+  width: 80%;
+  height: 200px;
+  margin: 30px;
+  
+}
+.foto2{
+height: 180px;  
+width: 80%;
+text-justify: left;
+
+}
+  
+  
+
+
+
+
+.display1 {
+display: flex;
+flex-direction: row-reverse;
+
+}
+.display2 {
+  display: flex;
+  flex-direction: row-reverse;
+  
+  }
+  .contato{
+    color: darkred;
+    font-family: cursive;
+    margin-left: 50px;
+    
+    
+  }
+  .button{
+    background-color: darkred;
+  }
+
+  footer{
+    color: aliceblue;
+    background-color: darkred;
+    line-height: 30px;
+    text-align: center;   
+  }
