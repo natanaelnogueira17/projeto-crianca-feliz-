@@ -2,25 +2,18 @@ body{
   margin: 0;
   padding: 0;
   /*background-color: rgb(251, 248, 191);*/
-  
-}
 
-h1{
-  color: rgb(89, 0, 255); 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 36px;
 }
-
 
 a{ 
   padding: 10px;
-  color: darkred;
+color: darkred;
   text-decoration: dashed ;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
   
 }
 
-h3{
+h3{                       
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: green;
   margin: 30px;
@@ -29,8 +22,9 @@ h3{
 
 p{
   font-family: cursive;
-  color: darkred;
+  color:  darkred;
   margin-left: 20px;
+ 
  
   
 
@@ -43,14 +37,14 @@ background-image: url(./background.jpg);
 
 img{
   height: 100px;
-  border: 3px darkred solid;
+  border: 3px rgb(0, 0, 0) solid;
   margin: 15px;
 }
  
 .navegacao{ 
   margin-top: px; 
   text-align: center;
-  border: 1px solid red;
+  border: 1px solid rgb(0, 0, 0);
   
   
   }
@@ -119,4 +113,9 @@ flex-direction: row-reverse;
     background-color: darkred;
     line-height: 30px;
     text-align: center;   
+  }
+
+
+  @media(max-width:500px){
+   
   }
